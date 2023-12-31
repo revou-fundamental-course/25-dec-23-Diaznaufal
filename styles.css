@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 150px;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Default border color */
+}
+
+input.invalid {
+    border: 1px solid #ff0000; /* Red border for invalid input */
+}
+
+button {
+    background-color: rgb(52, 52, 252);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(52, 52, 252);
+}
+
+button:focus {
+    background-color: rgb(24, 24, 235);
+    transform: translateY(-5px);
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+/* Tambahkan styling untuk result-container */
+.result-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.result-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#triangleImage {
+    width: 100%;
+    height: auto;
+    background: url('imagestriangle.png') no-repeat center center;
+    background-size: contain;
+    margin-top: 20px;
+}
+
