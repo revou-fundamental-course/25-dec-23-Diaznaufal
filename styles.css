@@ -17,7 +17,8 @@ body {
 
 label {
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 input {
@@ -25,17 +26,17 @@ input {
     padding: 8px;
     margin-bottom: 16px;
     box-sizing: border-box;
-    border: 1px solid #ccc; /* Default border color */
+    border: 1px solid #ccc; 
 }
 
 input.invalid {
-    border: 1px solid #ff0000; /* Red border for invalid input */
+    border: 1px solid #ff0000; 
 }
 
 button {
     background-color: rgb(52, 52, 252);
     color: white;
-    padding: 10px 15px;
+    padding: 10px 30px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -53,11 +54,13 @@ button:focus {
 #logo {
     max-width: 100%;
     height: auto;
-    margin-bottom: 5px;
+    margin-bottom: 15px; 
     align-items: center;
+    padding-bottom: 10px; 
+    text-align: center;
 }
 
-/* Tambahkan styling untuk result-container */
+
 .result-container {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -80,5 +83,6 @@ button:focus {
     background: url('imagestriangle.png') no-repeat center center;
     background-size: contain;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 

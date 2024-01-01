@@ -1,4 +1,3 @@
-// javascript.js
 function calculate(event) {
     event.preventDefault();
 
@@ -12,11 +11,11 @@ function calculate(event) {
         var resultContainer = document.getElementById('result');
 
         if (category === 'area') {
-            result = 0.5 * base * height; // Rumus luas segitiga
+            result = 0.5 * base * height; 
             resultContainer.innerText = 'Hasil Luas Segitiga: ' + result;
         } else if (category === 'perimeter') {
             if (!isNaN(perimeter)) {
-                result = base + height + perimeter; // Rumus keliling segitiga
+                result = base + height + perimeter; 
                 resultContainer.innerText = 'Hasil Keliling Segitiga: ' + result;
             } else {
                 resultContainer.innerText = 'Masukkan nilai yang valid untuk keliling';
@@ -33,7 +32,7 @@ function calculate(event) {
 
 function resetForm() {
     document.getElementById('categoryForm').reset();
-    document.getElementById('result').innerText = ''; // Reset kolom hasil
+    document.getElementById('result').innerText = ''; 
 }
 
 function selectShape(shape) {
